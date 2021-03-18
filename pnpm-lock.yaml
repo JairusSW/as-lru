@@ -1,0 +1,54 @@
+dependencies:
+  '@assemblyscript/loader': 0.18.15
+  as-bind: 0.6.1
+  assemblyscript: 0.18.15
+  quick-lru: 5.1.1
+  tiny-lru: 7.0.6
+lockfileVersion: 5.2
+packages:
+  /@assemblyscript/loader/0.18.15:
+    dev: false
+    resolution:
+      integrity: sha512-kUWC6tBJQiI38vFT6L9M2zlzJ3/Wgh8JZEIMekgkhXjLkDTMWcmOZX085RsOx5c9BdwrqMwaj/iMIpCbid214g==
+  /as-bind/0.6.1:
+    dependencies:
+      '@assemblyscript/loader': 0.18.15
+      assemblyscript: 0.18.15
+    dev: false
+    resolution:
+      integrity: sha512-90s9PreIi9PQW0gFrKQr5d97f6a3rpqdrJTEgB5jdDPgl0SoEfmz8nq4oSUdmdB7Zv3wp3KPsvpJDfCygduHyQ==
+  /assemblyscript/0.18.15:
+    dependencies:
+      binaryen: 100.0.0
+      long: 4.0.0
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-s1N1qwdBhen2SLQApYCtRIPWm1Am3oAbW58GCEKbeN6ZbQRh7nq0pv4RDqKw6CgK7dySn/F2S1D6p0scyRbQRw==
+  /binaryen/100.0.0:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-nxOt8d8/VXAuSVEtAWUdKrqpqCy365QqD223EzzB1GzS5himiZAfM/R5lXx+M/5q8TB8cYp3tYxv5rTjNTJveQ==
+  /long/4.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
+  /quick-lru/5.1.1:
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
+  /tiny-lru/7.0.6:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-zNYO0Kvgn5rXzWpL0y3RS09sMK67eGaQj9805jlK9G6pSadfriTczzLHFXa/xcW4mIRfmlB9HyQ/+SgL0V1uow==
+specifiers:
+  '@assemblyscript/loader': ^0.18.15
+  as-bind: ^0.6.1
+  assemblyscript: ^0.18.15
+  quick-lru: 5.1.1
+  tiny-lru: ^7.0.6
